@@ -1,0 +1,19 @@
+# some information about you
+name: "Rishabh Verma"
+nickname: "Rishabh"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "image/logo/boy.jpg"
+# give your some contact information. they will be used in the footer
+#contactInfo:
+ # email: "rv91467@gmail.com"
+#  linkedin: johndoe
+  
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Cloud Engineer
+  - I love Game Development
+  - I work on open-source projects
+  - I love to work with some fun projects

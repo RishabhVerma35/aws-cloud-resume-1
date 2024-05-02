@@ -1,0 +1,41 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: C++ Certified Associate Programmer Certification
+  timeline: "31 May 2022"
+  organization:
+    name: Cisco
+    url: https://www.cisco.com/site/in/en/index.html
+  courseOverview: With the completion of this course,The student gained a comprehensive understanding of essential principles and methodologies employed in object-oriented programming.
+  certificateURL: "Certifications/Cisco C++ certificate.pdf"
+
+- name: Programming Essentials in C
+  timeline: "10 May 2022"
+  organization:
+    name: Cisco
+    url: https://www.cisco.com/site/in/en/index.html
+  courseOverview: Students learn foundational concepts such as data types, control structures, functions, and memory management, along with basic algorithms relevant to AIML. 
+    Through hands-on exercises and projects, participants gain practical experience to start developing AIML applications in C.
+  certificateURL: "Certifications/AIMLProgrammingcertificate.pdf"
+
+
+- name: Introduction to Cybersecurity
+  timeline: "	5 Sep 2022"
+  organization:
+    name: Cisco
+    url: https://www.cisco.com/site/in/en/index.html
+  courseOverview: With the successful completion of the "Introduction to Cybersecurity" course, students acquire a thorough comprehension of fundamental principles and methodologies utilized in the field of cybersecurity.
+  certificateURL: "Certifications/CyberSecurity.pdf"
+
+
+
