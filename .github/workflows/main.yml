@@ -1,4 +1,4 @@
-name: Upload Public Folder to AWS S3
+name: Upload Public Folder Contents to AWS S3
 
 on:
   push:
@@ -12,11 +12,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Upload public folder to AWS S3
-        uses: aws-actions/configure-s3-deploy@v1
-        with:
-          bucket-name: your-s3-bucket-name
-          folder: public
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
+
+      - name: Upload public folder contents to AWS S3
+        run: |
+          aws s3 sync app/public/ s3://${{ secrets.S3_BUCKET_NAME }}/
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
