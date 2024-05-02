@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var aboutText = document.getElementById('visitCount');
+    var aboutText = document.getElementById('getCode');
     //need to fetch the visitor count from the dynamodb using apigate
     const apiUrl = 'https://rzg5amkfsj.execute-api.ap-south-1.amazonaws.com/prod';
     fetch(apiUrl)
