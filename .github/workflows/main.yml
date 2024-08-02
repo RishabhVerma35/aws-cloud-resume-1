@@ -3,7 +3,7 @@ name: Upload Public Folder to S3
 on:
   push:
     branches:
-      - main  # Adjust this to the branch you want to trigger the action on
+      - main  
 
 jobs:
   upload:
